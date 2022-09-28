@@ -81,14 +81,4 @@ public class Patient {
                 ", department='" + department + '\'' +
                 '}';
     }
-
-//    public void patientDetails() {
-//            System.out.println("Patient Name: "+name);
-//            System.out.println("Patient ID: "+age);
-//            System.out.println("City: "+city);
-//            System.out.println("State: "+state);
-//        System.out.println("Phone Number: "+phoneNumber);
-//        System.out.println("Department Name: "+department);
-//
-//    }
 }

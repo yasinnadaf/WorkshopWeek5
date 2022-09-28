@@ -28,10 +28,10 @@ public class Hospital {
         System.out.print("Enter phone number: ");
         patients.setPhoneNumber(scr.nextLong());
         System.out.println("Choose Department");
-        System.out.println("Enter 1 for oncology department");
+        System.out.println("Enter 1 for Oncology department");
         System.out.println("Enter 2 for Neurology department");
-        System.out.println("Enter 3 for  cardiology department");
-        System.out.println("Enter 4 for Gynacology department");
+        System.out.println("Enter 3 for Cardiology department");
+        System.out.println("Enter 4 for Gynocology department");
         int input = scr.nextInt();
         switch (input) {
             case 1:
