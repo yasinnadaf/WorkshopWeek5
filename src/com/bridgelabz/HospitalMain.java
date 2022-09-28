@@ -10,8 +10,8 @@ public class HospitalMain {
         hospital.addNewHospitals();
 
         while (true) {
-            System.out.println(hospital.patientMap.keySet());
-            System.out.println("current hospital name "+hospital.currentHospital);
+            System.out.println("current hospital name-> "+hospital.currentHospital);
+            System.out.println("Hospitals are: "+hospital.patientMap.keySet());
             System.out.println("\n1) To add Patient\n2) To add new Hospital\n3) select hospital\n4) Display patient details\n5) exit");
             int input = scanner.nextInt();
             switch (input){

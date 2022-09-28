@@ -61,14 +61,6 @@ public class Patient {
         this.department = department;
     }
 
-    public Patient(String name, String age, String city, String state, long phoneNumber, Hospital.Department department) {
-        this.name = name;
-        this.age = age;
-        this.city = city;
-        this.state = state;
-        this.phoneNumber = phoneNumber;
-        this.department = department;
-    }
 
     @Override
     public String toString() {

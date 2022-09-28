@@ -65,10 +65,10 @@ public class Hospital {
         for(String key : patientMap.keySet()){
             if (key.equals(hospitalName)){
                 patientList = patientMap.get(key);
-                currentHospital =key;
+                currentHospital = key;
             }
         }
-        System.out.println("Current hospital is: "+currentHospital);
+//        System.out.println("Current hospital is: "+currentHospital);
     }
 
     void display(ArrayList hospital){
